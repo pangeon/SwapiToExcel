@@ -15,3 +15,7 @@ Recruitment task for junior dev
 * [Arkusze Google to nie Excel dla ubogich. Oto 5 sztuczek, o których nie miałeś pojęcia](https://spidersweb.pl/2017/08/arkusze-google-sztuczki.html)
 
 * [Extending Google Sheets](https://developers.google.com/apps-script/guides/sheets)
+
+* [How to get cell value in Google Sheets using apps script](https://blog.gsmart.in/google-sheet-script-get-cell-value/)
+
+* [Working with Google Apps Script in Visual Studio Code using clasp](https://yagisanatode.com/2019/04/01/working-with-google-apps-script-in-visual-studio-code-using-clasp/)

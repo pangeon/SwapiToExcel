@@ -1,12 +1,13 @@
-function test() {
-    return 0;
+// @ts-nocheck
+function api(collectionName, itemId) {
+  const response = UrlFetchApp.fetch("https://swapi.dev/api/" + collectionName  + "/" + itemId);
+  const jsonContent = JSON.parse(response.getContentText())
+  return jsonContent;
 }
 
-console.log(test())
-
-/***
-function addProduct() {
-  var sheet = SpreadsheetApp.getActiveSheet();
-  sheet.appendRow(['Cotton Sweatshirt XL', 'css004']);
+function writeInSheet() {
+  const sheet = SpreadsheetApp.getActiveSheet();
+  for (var i = 1; i < 10; i++) {
+    sheet.appendRow([api("planets", i), i]);
+  }
 }
-***/
