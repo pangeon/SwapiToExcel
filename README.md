@@ -19,3 +19,5 @@ Recruitment task for junior dev
 * [How to get cell value in Google Sheets using apps script](https://blog.gsmart.in/google-sheet-script-get-cell-value/)
 
 * [Working with Google Apps Script in Visual Studio Code using clasp](https://yagisanatode.com/2019/04/01/working-with-google-apps-script-in-visual-studio-code-using-clasp/)
+
+* [Google Apps Script - wprowadzenie](https://cwsi.pl/inne/google-apps-script-wprowadzenie/)
